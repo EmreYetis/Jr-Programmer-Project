@@ -16,6 +16,7 @@ public abstract class Unit : MonoBehaviour,
     protected NavMeshAgent m_Agent;
     protected Building m_Target;
 
+
     protected void Awake()
     {
         m_Agent = GetComponent<NavMeshAgent>();
@@ -26,7 +27,10 @@ public abstract class Unit : MonoBehaviour,
 
     private void Start()
     {
-
+        if (MainManager.Instance != null)
+        {
+            SetColor(MainManager.Instance.TeamColor);
+        }
     }
 
     void SetColor(Color c)

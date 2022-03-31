@@ -2062,7 +2062,7 @@ PrefabInstance:
     - target: {fileID: 4382268677074299818, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 4956b8e934afb5b4e8d2a494e6d067af, type: 2}
+      objectReference: {fileID: 2100000, guid: 7edb32c6af4b96542aa5265a58a22981, type: 2}
     - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2577,7 +2577,7 @@ PrefabInstance:
     - target: {fileID: 4382268677074299818, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 5270aeae373c7b14bab22e88c81a8a7b, type: 2}
+      objectReference: {fileID: 2100000, guid: 7edb32c6af4b96542aa5265a58a22981, type: 2}
     - target: {fileID: 8974776837463427655, guid: 2a70994ccfb8c10458381d3fb3626547, type: 3}
       propertyPath: m_RootOrder
       value: 10
